@@ -7,8 +7,8 @@ It's recommended to use a Makefile as it'll help keep the commands organized and
 ## Compilation Commands
 * `-l vcs.log` : Logs all compilation messages to vcs.log file.
 * `-timescale=1ns/1ps` : Sets the default timescale for the simulation to 1ns time units and 1ps precision.
-* `-assert svaext`	: Enables SystemVerilog Assertions (SVA). **Check this**
-* `-lca` : Enables advanced code coverage and assertion coverage analysis.
+* `-assert svaext`	: Enables SystemVerilog Assertions (SVA).
+* `-lca` : Enables advanced analysis features Synopsys hasn't officialy validated. Kind of like enabling beta testing features (Correct me if I'm wrong).
 * `-cm line+tgl+fsm+branch+cond+assert` : Enables specified coverage types: line, toggle, FSM, branch, condition, and assertion.
 * `-cm_dir ./cmp_cov.vdb` : Specify the compilation coverage report directory.
 * `-sverilog` : Enables SystemVerilog language support.
@@ -40,3 +40,6 @@ It's recommended to use a Makefile as it'll help keep the commands organized and
 ## Other Useful Commands
 * `verdi -cov -covdir simv.vdb -covdir top_cov.vdb` : Command used to open up the coverage report in Verdi.
 * `verdi -ssf top_wave.fsdb` : Opens the `.fsdb` file generated during simulation, in Verdi for viewing the waveform.
+
+### Things to do
+* [] Upload the Makefile
