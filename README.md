@@ -42,4 +42,4 @@ It's recommended to use a Makefile as it'll help keep the commands organized and
 * `verdi -ssf top_wave.fsdb` : Opens the `.fsdb` file generated during simulation, in Verdi for viewing the waveform.
 
 ### Things to do
-* [] Upload the Makefile
+* [ ] Upload the Makefile
