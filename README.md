@@ -35,3 +35,7 @@ It's recommended to use a Makefile as it'll help keep the commands organized and
 * `-dir ./top_cov.vdb` : Specifies the coverage database directory generated during simulation.
 * `-format both` : The coverage report can be generated in both HTML and text formats. Here both generates them both.
 * `-report urgReport_top` : Specifies the directory name for the generated coverage report files.
+
+## Other Useful Commands
+* `verdi -cov -covdir simv.vdb -covdir top_cov.vdb` : Command used to open up the coverage report in Verdi.
+* `verdi -ssf top_wave.fsdb` : Opens the `.fsdb` file generated during simulation, in Verdi for viewing the waveform.
