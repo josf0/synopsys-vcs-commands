@@ -10,6 +10,7 @@ It's recommended to use a Makefile as it'll help keep the commands organized and
 * `-assert svaext`	: Enables SystemVerilog Assertions (SVA). **Check this**
 * `-lca` : Enables advanced code coverage and assertion coverage analysis.
 * `-cm line+tgl+fsm+branch+cond+assert` : Enables specified coverage types: line, toggle, FSM, branch, condition, and assertion.
+* `-cm_dir ./cmp_cov.vdb` : Specify the compilation coverage report directory.
 * `-sverilog` : Enables SystemVerilog language support.
 * `+v2k` : Enables support for Verilog-2001 features.
 * `-ntb_opts uvm` : Enables UVM (Universal Verification Methodology) support for testbenches.
@@ -32,7 +33,7 @@ It's recommended to use a Makefile as it'll help keep the commands organized and
 
 ## Coverage Commands
 * `urg` : Invokes the Universal Report Generator, a Synopsys tool for coverage analysis and reporting.
-* `-dir ./top_cov.vdb` : Specifies the coverage database directory generated during simulation.
+* `-dir ./cmp_cov.vdb -dir ./top_cov.vdb` : Specifies the coverage database directory generated during compilation and simulation.
 * `-format both` : The coverage report can be generated in both HTML and text formats. Here both generates them both.
 * `-report urgReport_top` : Specifies the directory name for the generated coverage report files.
 
