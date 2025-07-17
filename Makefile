@@ -1,10 +1,10 @@
 #
 # Makefile template for VCS
 #
-RTL 		= ../rtl/* 							# Include the RTL files here
+RTL 		= ../rtl/* 				# Include the RTL files here
 INC 		= +incdir+../rtl +incdir+../tb		# Include all the directories here
-SVTB_TOP 	= ../test/tb_top.sv					# Include the testbench top file
-SVTB_PKG 	= ../test/tb_pkg.sv					# Include the package file
+SVTB_TOP 	= ../test/tb_top.sv			# Include the testbench top file
+SVTB_PKG 	= ../test/tb_pkg.sv			# Include the package file
 SVTB_ASSERT = ../test/tb_assertions.sv			# Include the assertions file
 
 work 		= work #library name
