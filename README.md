@@ -40,6 +40,3 @@ It's recommended to use a Makefile as it'll help keep the commands organized and
 ## Other Useful Commands
 * `verdi -cov -covdir simv.vdb -covdir top_cov.vdb` : Command used to open up the coverage report in Verdi.
 * `verdi -ssf top_wave.fsdb` : Opens the `.fsdb` file generated during simulation, in Verdi for viewing the waveform.
-
-### Things to do
-* [ ] Upload the Makefile
